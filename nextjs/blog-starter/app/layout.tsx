@@ -2,7 +2,7 @@ import { ReactFigmaProvider } from "@/app/polipo-react";
 import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 import "./globals.css";
-import "../src/polipo.css";
+import "../app/polipo.css";
 
 // export const inter = Inter();
 

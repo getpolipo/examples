@@ -24,7 +24,10 @@ export default function Home() {
         ),
         HeroPostTitle: (
           <h3>
-            <Link href={`/posts/${heroPost.slug}`} className="hover:underline">
+            <Link
+              href={`/blog/posts/${heroPost.slug}`}
+              className="hover:underline"
+            >
               {heroPost.title}
             </Link>
           </h3>
@@ -61,7 +64,7 @@ export default function Home() {
                   PostCardTitle: (
                     <h3>
                       <Link
-                        href={`/posts/${post.slug}`}
+                        href={`/blog/posts/${post.slug}`}
                         className="hover:underline"
                       >
                         {post.title}
