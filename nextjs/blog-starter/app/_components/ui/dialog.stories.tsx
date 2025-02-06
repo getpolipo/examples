@@ -1,6 +1,7 @@
 import { Meta } from "@storybook/react";
 import { Button } from "./button";
-import { Dialog, DialogContent, DialogTrigger } from "./dialog";
+import { Dialog, DialogContent, DialogTrigger, DialogTitle } from "./dialog";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 const meta = {
   title: "Example/Dialog",
@@ -21,6 +22,9 @@ export const Primary = () => (
       <Button>Edit Profile</Button>
     </DialogTrigger>
     <DialogContent>
+      <VisuallyHidden>
+        <DialogTitle>Title</DialogTitle>
+      </VisuallyHidden>
       <div>Dialog example</div>
     </DialogContent>
   </Dialog>

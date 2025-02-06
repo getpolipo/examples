@@ -1,9 +1,10 @@
 import { ReactFigmaProvider } from "@/app/polipo-react";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
+import "../src/polipo.css";
 
-export const inter = Inter();
+// export const inter = Inter();
 
 export const metadata: Metadata = {
   title: "Create Next App",

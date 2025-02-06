@@ -1,5 +1,6 @@
 import layoutConfig from "@/app/polipo";
 import { createReactFigma, createReactFigmaDev } from "polipo/react";
+import polipoData from "@/src/polipo.json";
 
 export const { ReactFigma, ReactFigmaProvider } =
   process.env.NODE_ENV === "development"
@@ -7,5 +8,5 @@ export const { ReactFigma, ReactFigmaProvider } =
         root: layoutConfig,
       })
     : createReactFigma({
-        data: {},
+        data: polipoData,
       });

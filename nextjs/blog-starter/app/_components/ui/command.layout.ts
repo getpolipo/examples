@@ -28,11 +28,13 @@ export const commandSeparator = defineFigmaLayout({
 export const commandItem = defineFigmaLayout({
   path: "Components/Command/Item",
   wFill: true,
+  // @ts-ignore missing types
   "[data-selected=true]": {
     properties: {
       State: "Selected",
     },
   },
+  // @ts-ignore missing types
   "[data-disabled=true]": {
     properties: {
       State: "Disabled",

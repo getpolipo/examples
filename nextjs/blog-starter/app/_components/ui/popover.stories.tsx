@@ -23,7 +23,7 @@ export const Primary = () => {
   return (
     <Popover>
       {/* TODO asChild */}
-      <PopoverTrigger>
+      <PopoverTrigger asChild>
         <Button>Open popover</Button>
       </PopoverTrigger>
       <PopoverContent className="w-80">

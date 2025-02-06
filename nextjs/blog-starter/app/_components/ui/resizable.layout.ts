@@ -5,6 +5,7 @@ export const resizableHandleLayout = defineFigmaLayout({
   properties: {
     Direction: "Horizontal",
   },
+  // @ts-ignore missing types
   '[data-panel-group-direction="vertical"]': {
     properties: {
       Direction: "Vertical",

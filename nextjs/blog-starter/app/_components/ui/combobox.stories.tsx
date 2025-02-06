@@ -61,7 +61,7 @@ export function Primary() {
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
-      <PopoverTrigger>
+      <PopoverTrigger asChild>
         <Button role="combobox" aria-expanded={open}>
           <div className="flex justify-between w-[200px] items-center">
             {value

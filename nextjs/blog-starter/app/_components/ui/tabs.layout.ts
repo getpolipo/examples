@@ -11,6 +11,7 @@ export const tabsTrigger = defineFigmaLayout({
   properties: {
     State: `Resting`,
   },
+  // @ts-ignore missing types
   "[data-state='active']": {
     properties: {
       State: `Active`,

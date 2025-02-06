@@ -6,6 +6,7 @@ export const dropdownMenuSubTrigger = defineFigmaLayout({
   ":focus": {
     properties: { State: "Focused" },
   },
+  // @ts-ignore missing types
   "[data-disabled=true]": {
     properties: { State: "Disabled" },
   },
@@ -22,6 +23,7 @@ export const dropdownMenuItem = defineFigmaLayout({
   ":focus": {
     properties: { State: "Focused" },
   },
+  // @ts-ignore missing types
   "[data-disabled]": {
     properties: { State: "Disabled" },
   },

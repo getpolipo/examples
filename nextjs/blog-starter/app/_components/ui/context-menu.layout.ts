@@ -14,6 +14,7 @@ export const contextMenuItem = defineFigmaLayout({
       State: "Hover",
     },
   },
+  // @ts-ignore missing types
   "[data-disabled]": {
     properties: {
       State: "Disabled",
@@ -32,6 +33,7 @@ export const contextMenuCheckboxItem = defineFigmaLayout({
       State: "Hover",
     },
   },
+  // @ts-ignore missing types
   "[data-disabled]": {
     properties: {
       State: "Disabled",
@@ -50,6 +52,7 @@ export const contextMenuSubTrigger = defineFigmaLayout({
       State: "Hover",
     },
   },
+  // @ts-ignore missing types
   "[data-disabled]": {
     properties: {
       State: "Disabled",
@@ -68,6 +71,7 @@ export const contextMenuRadioItem = defineFigmaLayout({
       State: "Hover",
     },
   },
+  // @ts-ignore missing types
   "[data-disabled]": {
     properties: {
       State: "Disabled",

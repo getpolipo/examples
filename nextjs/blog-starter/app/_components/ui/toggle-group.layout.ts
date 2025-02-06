@@ -9,11 +9,13 @@ export const toggleGroupItem = defineFigmaLayout({
   properties: {
     State: `Resting`,
   },
+  // @ts-ignore missing types
   "[data-state='on']": {
     properties: {
       State: `Selected`,
     },
   },
+  // @ts-ignore missing types
   "[disabled]": {
     properties: {
       State: `Disabled`,

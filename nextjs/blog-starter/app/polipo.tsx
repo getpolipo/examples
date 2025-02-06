@@ -180,4 +180,16 @@ export default defineFigmaRoot({
     paginationContent,
     paginationRoot,
   },
+  getFont: ({ family }) => {
+    const fontFamily = {
+      Inter: `var(--font-inter)`,
+      "Source Code Pro": `var(--font-source-code-pro)`,
+    }[family];
+
+    if (!fontFamily) console.warn(`unknown font family: ${family}`);
+
+    return {
+      family: fontFamily ?? `sans-serif`,
+    };
+  },
 });
